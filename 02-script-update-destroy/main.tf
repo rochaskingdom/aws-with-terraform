@@ -11,7 +11,7 @@ terraform {
 
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs#environment-variables
 provider "aws" {
-  region  = "eu-central-1"
+  region  = "us-east-1"
 }
 
 # terraform validate
