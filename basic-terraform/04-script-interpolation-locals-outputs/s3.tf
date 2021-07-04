@@ -14,7 +14,7 @@ resource "aws_s3_bucket_object" "this" {
 resource "aws_s3_bucket" "manual" {
   bucket = "myawsbucket-456457"
   tags = {
-    Criado = "04/07/2021"
+    Criado    = "04/07/2021"
     Importado = "04/07/2021"
     ManagedBy = "Terraform"
   }
